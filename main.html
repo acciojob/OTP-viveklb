@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="container">
+
+    <h2 id="verification_heading">
+      Verify Your Account
+    </h2>
+
+    <p id="verification_subtext">
+      We emailed you the six digit code to your email address.
+      Enter the code below to confirm your email address.
+    </p>
+
+    <div class="code-container">
+
+      <input
+        type="text"
+        id="code-1"
+        class="code"
+        maxlength="1"
+        inputmode="numeric"
+        autocomplete="one-time-code"
+        autofocus
+      >
+
+      <input
+        type="text"
+        id="code-2"
+        class="code"
+        maxlength="1"
+        inputmode="numeric"
+      >
+
+      <input
+        type="text"
+        id="code-3"
+        class="code"
+        maxlength="1"
+        inputmode="numeric"
+      >
+
+      <input
+        type="text"
+        id="code-4"
+        class="code"
+        maxlength="1"
+        inputmode="numeric"
+      >
+
+      <input
+        type="text"
+        id="code-5"
+        class="code"
+        maxlength="1"
+        inputmode="numeric"
+      >
+
+      <input
+        type="text"
+        id="code-6"
+        class="code"
+        maxlength="1"
+        inputmode="numeric"
+      >
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
